@@ -1,6 +1,42 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
-
+.halloword {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  margin: 0 auto;
+  left: 500px;
+  position: relative;
+  left: 5px;
+  top: 7px;
+}
+.box-1 {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  position: relative;
+  top: 550px;
+  z-index: 0;
+}
+.box-2 {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(0, 255, 85);
+  position: relative;
+  top: 340px;
+  z-index: 2;
+  left: 10px;
+}
+.box-3 {
+  background-color: rgb(0, 183, 255);
+  height: 200px;
+  width: 200px;
+  position: relative;
+  top: 130px;
+  z-index: 1;
+  left: 20px;
+}
